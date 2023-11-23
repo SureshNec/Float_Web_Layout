@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+header {
+    background-color: #a8c9c7;
+    text-align: center;
+    padding: 40px;
+}
+
+
+/* Navigation Bar */
+
+nav ul {
+    display: inline-block;
+    width: 100%;
+    list-style-type: none;
+    background-color: #176B87;
+}
+nav ul li {
+    float: left;
+    position: relative;
+    text-align: center;
+}
+nav ul li a {
+    display: inline-block;
+    padding: 10px;
+    text-decoration: none;
+    color: aliceblue;
+}
+nav ul li ul.dropdown li {
+    width: 100%;
+    display: block;
+}
+.dropdown a {
+    display: block;
+}
+nav ul li ul.dropdown {
+    background-color: #176B87;
+    position: absolute;
+    z-index: 1;
+    display: none;
+}
+nav ul li a:hover {
+    background-color: lightblue;
+    color: black;
+}
+nav ul li:hover ul.dropdown {
+    display: block;
+}
+nav ul li.active {
+    background-color: #64CCC5;
+}
+
+
+
+/* Body Content */
+
+main {
+    clear: both;
+}
+.box {
+    background-color: rgb(235, 235, 235);
+    padding: 10px;
+    margin: 10px;
+    float: left;
+}
+.box1 {
+    width: calc(20% - 40px);
+    height: 30vh;
+}
+.box2 {
+    width: calc(60% - 40px);
+    height: 30vh;
+}
+.box3 {
+    width: calc(20% - 40px);
+    height: 30vh;
+}
+h3 {
+    text-align: center;
+}
+
+
+/* Footer Content */
+footer {
+    clear: both;
+    text-align: center;
+    background-color: #176B87;
+    color: aliceblue;
+    padding: 10px;
+}
